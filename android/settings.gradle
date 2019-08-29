@@ -1,0 +1,5 @@
+rootProject.name = 'MyFiziqExample'
+include ':react-native-my-fiziq-sdk'
+project(':react-native-my-fiziq-sdk').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-my-fiziq-sdk/android')
+
+include ':app'
