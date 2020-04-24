@@ -13,7 +13,6 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* MyFiziqExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyFiziqExampleTests.m */; };
-		01570F9D7E2047518DEFC190 /* RNMyFiziqWrapUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8FF0186C140AA9ED011D8 /* RNMyFiziqWrapUser.m */; };
 		030EE0527D697C65A5F74863 /* Pods_MyFiziqExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAF805C2DE6E92DB3158D47 /* Pods_MyFiziqExampleTests.framework */; };
 		04D80D7B2650591D8AEC02CA /* Pods_MyFiziqExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461723EF277DF756C06A93C9 /* Pods_MyFiziqExample.framework */; };
 		11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
@@ -26,7 +25,9 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		2680E7185D42463E8B3F18AC /* RNMyFiziqWrapCore.m in Sources */ = {isa = PBXBuildFile; fileRef = E0752693B7CA49918BC8F6CF /* RNMyFiziqWrapCore.m */; };
+		1471CEBF6EA84739830B6D2B /* RNMyFiziqSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BD1469B301424D858B8766 /* RNMyFiziqSdk.m */; };
+		1A6AE6BAF4224395B2EE4CAD /* RNMyFiziqWrapCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6666EDEBC456DBCF012C1 /* RNMyFiziqWrapCore.m */; };
+		21D3E97AF24A4BAC9BE83F36 /* RNMyFiziqWrapCognitoAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D718ECA31420BA06560F6 /* RNMyFiziqWrapCognitoAuth.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -40,14 +41,19 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* MyFiziqExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyFiziqExampleTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
-		4E5229A65A004F4A87C02E4F /* RNMyFiziqSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = A49F157133394AF999A8D65C /* RNMyFiziqSdk.m */; };
-		55DEF924CA624AC7A6681509 /* RNMyFiziqWrapAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = 97238ED5A37A4A559794115A /* RNMyFiziqWrapAvatar.m */; };
-		5DA37D7DD49F4809A409261D /* RNMyFiziqWrapCognitoAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E301946FCB48FD977EB572 /* RNMyFiziqWrapCognitoAuth.m */; };
+		3569569F81294695AF55AAD6 /* RNMyFiziqWrapUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D70D82A57E1D437FAEDFE16D /* RNMyFiziqWrapUser.m */; };
+		443BAA7EDAAC4FDF9C8B0057 /* RNMyFiziqWrapCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07E04C664744D7A5EC5B9B /* RNMyFiziqWrapCommon.m */; };
+		51A1420B0CA94BD185615DE9 /* RNMyFiziqWrapCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F808B814F4769944F0949 /* RNMyFiziqWrapCore.m */; };
+		64B322BD89794ABAAE1EC5F6 /* RNMyFiziqWrapUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D70965994E459DB1D8E0B9 /* RNMyFiziqWrapUser.m */; };
+		81A5370C5C554855BF3359D3 /* RNMyFiziqWrapAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = C449B1CB8EF444278198C7BD /* RNMyFiziqWrapAvatar.m */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		8C9A0628C9908B45892BD965 /* Pods_MyFiziqExample_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7666DC76B97012AA42831099 /* Pods_MyFiziqExample_tvOS.framework */; };
+		8D300929BC384F9E89250140 /* RNMyFiziqWrapCognitoAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 6909B3FFC1D545C0A2BA2ACF /* RNMyFiziqWrapCognitoAuth.m */; };
+		9137C4A1896149DD807918FA /* RNMyFiziqWrapAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516F23223A54C129457226C /* RNMyFiziqWrapAvatar.m */; };
+		9A1924FDB07F40FE84BF9FAE /* RNMyFiziqWrapCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = E4438D9038C04721BBC871B3 /* RNMyFiziqWrapCommon.m */; };
 		9BA8BA4B57D482E9F580DEDC /* Pods_MyFiziqExample_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5EAFB4E2A7DBCE8B4EB69D /* Pods_MyFiziqExample_tvOSTests.framework */; };
-		ACCE2AD0697B4BCDB52E8E30 /* RNMyFiziqWrapCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB82A0EC777455C9493B31F /* RNMyFiziqWrapCommon.m */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		D092A9881CCC4391949AD0F3 /* RNMyFiziqSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = 0780168B4257427C95A567DF /* RNMyFiziqSdk.m */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
@@ -186,20 +192,6 @@
 			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
 			remoteInfo = "double-conversion-tvOS";
 		};
-		2DF0FFEA2056DD460020B375 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9936F3131F5F2E4B0010BF04;
-			remoteInfo = privatedata;
-		};
-		2DF0FFEC2056DD460020B375 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
-			remoteInfo = "privatedata-tvOS";
-		};
 		3DAD3E831DF850E9000B6D8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
@@ -277,20 +269,6 @@
 			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
 			remoteInfo = "cxxreact-tvOS";
 		};
-		3DAD3EAC1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
-			remoteInfo = jschelpers;
-		};
-		3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
-			remoteInfo = "jschelpers-tvOS";
-		};
 		5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
@@ -326,6 +304,34 @@
 			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
 			remoteInfo = RCTBlob;
 		};
+		D9F2679C2452E3D7002CEAAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC6D6214B3E7000DD5AC8;
+			remoteInfo = jsi;
+		};
+		D9F2679E2452E3D7002CEAAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC73B214B45A300DD5AC8;
+			remoteInfo = jsiexecutor;
+		};
+		D9F267A02452E3D7002CEAAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FB6214C9A0900B7C4FE;
+			remoteInfo = "jsi-tvOS";
+		};
+		D9F267A22452E3D7002CEAAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FEE214C9CF800B7C4FE;
+			remoteInfo = "jsiexecutor-tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -338,7 +344,8 @@
 		00E356EE1AD99517003FC87E /* MyFiziqExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFiziqExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MyFiziqExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFiziqExampleTests.m; sourceTree = "<group>"; };
-		06E301946FCB48FD977EB572 /* RNMyFiziqWrapCognitoAuth.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqWrapCognitoAuth.m; path = RNMyFiziqWrapCognitoAuth.m; sourceTree = "<group>"; };
+		0780168B4257427C95A567DF /* RNMyFiziqSdk.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqSdk.m; path = "../node_modules/react-native-my-fiziq-sdk/ios/RNMyFiziqSdk.m"; sourceTree = "<group>"; };
+		0C4F808B814F4769944F0949 /* RNMyFiziqWrapCore.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqWrapCore.m; path = "../node_modules/react-native-my-fiziq-sdk/ios/RNMyFiziqWrapCore.m"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MyFiziqExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFiziqExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -353,28 +360,33 @@
 		2D02E47B1E0B4A5D006451C7 /* MyFiziqExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyFiziqExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* MyFiziqExample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyFiziqExample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BA8FF0186C140AA9ED011D8 /* RNMyFiziqWrapUser.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqWrapUser.m; path = RNMyFiziqWrapUser.m; sourceTree = "<group>"; };
-		3DB82A0EC777455C9493B31F /* RNMyFiziqWrapCommon.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqWrapCommon.m; path = RNMyFiziqWrapCommon.m; sourceTree = "<group>"; };
 		40D1227B05DF84EEC6CCF00B /* Pods-MyFiziqExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFiziqExample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MyFiziqExample-tvOSTests/Pods-MyFiziqExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		42EBC575A7CD2D4C0B0ADAC2 /* Pods-MyFiziqExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFiziqExample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MyFiziqExample-tvOSTests/Pods-MyFiziqExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		461723EF277DF756C06A93C9 /* Pods_MyFiziqExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFiziqExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		5F5D718ECA31420BA06560F6 /* RNMyFiziqWrapCognitoAuth.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqWrapCognitoAuth.m; path = "../node_modules/react-native-my-fiziq-sdk/ios/RNMyFiziqWrapCognitoAuth.m"; sourceTree = "<group>"; };
+		6909B3FFC1D545C0A2BA2ACF /* RNMyFiziqWrapCognitoAuth.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqWrapCognitoAuth.m; path = "../node_modules/react-native-my-fiziq-sdk/ios/RNMyFiziqWrapCognitoAuth.m"; sourceTree = "<group>"; };
+		7516F23223A54C129457226C /* RNMyFiziqWrapAvatar.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqWrapAvatar.m; path = "../node_modules/react-native-my-fiziq-sdk/ios/RNMyFiziqWrapAvatar.m"; sourceTree = "<group>"; };
 		7666DC76B97012AA42831099 /* Pods_MyFiziqExample_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFiziqExample_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D70965994E459DB1D8E0B9 /* RNMyFiziqWrapUser.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqWrapUser.m; path = "../node_modules/react-native-my-fiziq-sdk/ios/RNMyFiziqWrapUser.m"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		7CD6666EDEBC456DBCF012C1 /* RNMyFiziqWrapCore.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqWrapCore.m; path = "../node_modules/react-native-my-fiziq-sdk/ios/RNMyFiziqWrapCore.m"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8C035C1D930D8F84112C3BC1 /* Pods-MyFiziqExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFiziqExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-MyFiziqExampleTests/Pods-MyFiziqExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		97238ED5A37A4A559794115A /* RNMyFiziqWrapAvatar.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqWrapAvatar.m; path = RNMyFiziqWrapAvatar.m; sourceTree = "<group>"; };
 		9DEBBC3799F3AD2D74652B76 /* Pods-MyFiziqExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFiziqExample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MyFiziqExample-tvOS/Pods-MyFiziqExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		A49F157133394AF999A8D65C /* RNMyFiziqSdk.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqSdk.m; path = RNMyFiziqSdk.m; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		C449B1CB8EF444278198C7BD /* RNMyFiziqWrapAvatar.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqWrapAvatar.m; path = "../node_modules/react-native-my-fiziq-sdk/ios/RNMyFiziqWrapAvatar.m"; sourceTree = "<group>"; };
 		CABF9600D563D383DE655BAF /* Pods-MyFiziqExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFiziqExample.debug.xcconfig"; path = "Target Support Files/Pods-MyFiziqExample/Pods-MyFiziqExample.debug.xcconfig"; sourceTree = "<group>"; };
 		CB5EAFB4E2A7DBCE8B4EB69D /* Pods_MyFiziqExample_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFiziqExample_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0655B4CBBF834EDB625943 /* Pods-MyFiziqExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFiziqExampleTests.release.xcconfig"; path = "Target Support Files/Pods-MyFiziqExampleTests/Pods-MyFiziqExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		CFAF805C2DE6E92DB3158D47 /* Pods_MyFiziqExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFiziqExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0752693B7CA49918BC8F6CF /* RNMyFiziqWrapCore.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqWrapCore.m; path = RNMyFiziqWrapCore.m; sourceTree = "<group>"; };
+		D70D82A57E1D437FAEDFE16D /* RNMyFiziqWrapUser.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqWrapUser.m; path = "../node_modules/react-native-my-fiziq-sdk/ios/RNMyFiziqWrapUser.m"; sourceTree = "<group>"; };
+		E4438D9038C04721BBC871B3 /* RNMyFiziqWrapCommon.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqWrapCommon.m; path = "../node_modules/react-native-my-fiziq-sdk/ios/RNMyFiziqWrapCommon.m"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F2BD1469B301424D858B8766 /* RNMyFiziqSdk.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqSdk.m; path = "../node_modules/react-native-my-fiziq-sdk/ios/RNMyFiziqSdk.m"; sourceTree = "<group>"; };
 		F61FD1B44A493C44C21F718D /* Pods-MyFiziqExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFiziqExample.release.xcconfig"; path = "Target Support Files/Pods-MyFiziqExample/Pods-MyFiziqExample.release.xcconfig"; sourceTree = "<group>"; };
+		FC07E04C664744D7A5EC5B9B /* RNMyFiziqWrapCommon.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = RNMyFiziqWrapCommon.m; path = "../node_modules/react-native-my-fiziq-sdk/ios/RNMyFiziqWrapCommon.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -539,16 +551,16 @@
 				3DAD3EA71DF850E9000B6D8A /* libyoga.a */,
 				3DAD3EA91DF850E9000B6D8A /* libcxxreact.a */,
 				3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */,
-				3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */,
-				3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */,
 				2DF0FFDF2056DD460020B375 /* libjsinspector.a */,
 				2DF0FFE12056DD460020B375 /* libjsinspector-tvOS.a */,
 				2DF0FFE32056DD460020B375 /* libthird-party.a */,
 				2DF0FFE52056DD460020B375 /* libthird-party.a */,
 				2DF0FFE72056DD460020B375 /* libdouble-conversion.a */,
 				2DF0FFE92056DD460020B375 /* libdouble-conversion.a */,
-				2DF0FFEB2056DD460020B375 /* libprivatedata.a */,
-				2DF0FFED2056DD460020B375 /* libprivatedata-tvOS.a */,
+				D9F2679D2452E3D7002CEAAA /* libjsi.a */,
+				D9F2679F2452E3D7002CEAAA /* libjsiexecutor.a */,
+				D9F267A12452E3D7002CEAAA /* libjsi-tvOS.a */,
+				D9F267A32452E3D7002CEAAA /* libjsiexecutor-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -579,7 +591,6 @@
 				8C035C1D930D8F84112C3BC1 /* Pods-MyFiziqExampleTests.debug.xcconfig */,
 				CF0655B4CBBF834EDB625943 /* Pods-MyFiziqExampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -638,6 +649,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				5C5B7AE10331B2023EB42DA3 /* Pods */,
+				D9F267762452E3D7002CEAAA /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -662,6 +674,25 @@
 				2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D9F267762452E3D7002CEAAA /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				F2BD1469B301424D858B8766 /* RNMyFiziqSdk.m */,
+				7516F23223A54C129457226C /* RNMyFiziqWrapAvatar.m */,
+				E4438D9038C04721BBC871B3 /* RNMyFiziqWrapCommon.m */,
+				7CD6666EDEBC456DBCF012C1 /* RNMyFiziqWrapCore.m */,
+				77D70965994E459DB1D8E0B9 /* RNMyFiziqWrapUser.m */,
+				6909B3FFC1D545C0A2BA2ACF /* RNMyFiziqWrapCognitoAuth.m */,
+				0780168B4257427C95A567DF /* RNMyFiziqSdk.m */,
+				C449B1CB8EF444278198C7BD /* RNMyFiziqWrapAvatar.m */,
+				FC07E04C664744D7A5EC5B9B /* RNMyFiziqWrapCommon.m */,
+				0C4F808B814F4769944F0949 /* RNMyFiziqWrapCore.m */,
+				D70D82A57E1D437FAEDFE16D /* RNMyFiziqWrapUser.m */,
+				5F5D718ECA31420BA06560F6 /* RNMyFiziqWrapCognitoAuth.m */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -774,6 +805,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -960,20 +992,6 @@
 			remoteRef = 2DF0FFE82056DD460020B375 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2DF0FFEB2056DD460020B375 /* libprivatedata.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libprivatedata.a;
-			remoteRef = 2DF0FFEA2056DD460020B375 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		2DF0FFED2056DD460020B375 /* libprivatedata-tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libprivatedata-tvOS.a";
-			remoteRef = 2DF0FFEC2056DD460020B375 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1051,20 +1069,6 @@
 			remoteRef = 3DAD3EAA1DF850E9000B6D8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libjschelpers.a;
-			remoteRef = 3DAD3EAC1DF850E9000B6D8A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libjschelpers.a;
-			remoteRef = 3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1098,6 +1102,34 @@
 			fileType = archive.ar;
 			path = libRCTBlob.a;
 			remoteRef = ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D9F2679D2452E3D7002CEAAA /* libjsi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsi.a;
+			remoteRef = D9F2679C2452E3D7002CEAAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D9F2679F2452E3D7002CEAAA /* libjsiexecutor.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsiexecutor.a;
+			remoteRef = D9F2679E2452E3D7002CEAAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D9F267A12452E3D7002CEAAA /* libjsi-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsi-tvOS.a";
+			remoteRef = D9F267A02452E3D7002CEAAA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D9F267A32452E3D7002CEAAA /* libjsiexecutor-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsiexecutor-tvOS.a";
+			remoteRef = D9F267A22452E3D7002CEAAA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1214,8 +1246,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyFiziqExampleTests/Pods-MyFiziqExampleTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
@@ -1227,18 +1257,15 @@
 				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
 				"${BUILT_PRODUCTS_DIR}/Base64/Base64.framework",
 				"${BUILT_PRODUCTS_DIR}/GBDeviceInfo/GBDeviceInfo.framework",
-				"${BUILT_PRODUCTS_DIR}/InterfaCSS/InterfaCSS.framework",
 				"${BUILT_PRODUCTS_DIR}/JWT/JWT.framework",
+				"${BUILT_PRODUCTS_DIR}/MyFaCSS/MyFaCSS.framework",
 				"${PODS_ROOT}/MyFiziqSDK/MyFiziqSDK/MyFiziqSDK.framework",
 				"${PODS_ROOT}/MyFiziqSDKBilling/MyFiziqSDKBilling/MyFiziqSDKBilling.framework",
 				"${BUILT_PRODUCTS_DIR}/MyFiziqSDKCommon/MyFiziqSDKCommon.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
-				"${BUILT_PRODUCTS_DIR}/React/React.framework",
-				"${BUILT_PRODUCTS_DIR}/SHEmailValidator/SHEmailValidator.framework",
+				"${BUILT_PRODUCTS_DIR}/SpotHeroEmailValidator/SpotHeroEmailValidator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
@@ -1249,14 +1276,13 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Base64.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GBDeviceInfo.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InterfaCSS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyFaCSS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyFiziqSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyFiziqSDKBilling.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyFiziqSDKCommon.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SHEmailValidator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SpotHeroEmailValidator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1312,8 +1338,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyFiziqExample/Pods-MyFiziqExample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
@@ -1325,18 +1349,15 @@
 				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
 				"${BUILT_PRODUCTS_DIR}/Base64/Base64.framework",
 				"${BUILT_PRODUCTS_DIR}/GBDeviceInfo/GBDeviceInfo.framework",
-				"${BUILT_PRODUCTS_DIR}/InterfaCSS/InterfaCSS.framework",
 				"${BUILT_PRODUCTS_DIR}/JWT/JWT.framework",
+				"${BUILT_PRODUCTS_DIR}/MyFaCSS/MyFaCSS.framework",
 				"${PODS_ROOT}/MyFiziqSDK/MyFiziqSDK/MyFiziqSDK.framework",
 				"${PODS_ROOT}/MyFiziqSDKBilling/MyFiziqSDKBilling/MyFiziqSDKBilling.framework",
 				"${BUILT_PRODUCTS_DIR}/MyFiziqSDKCommon/MyFiziqSDKCommon.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
-				"${BUILT_PRODUCTS_DIR}/React/React.framework",
-				"${BUILT_PRODUCTS_DIR}/SHEmailValidator/SHEmailValidator.framework",
+				"${BUILT_PRODUCTS_DIR}/SpotHeroEmailValidator/SpotHeroEmailValidator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
@@ -1347,14 +1368,13 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Base64.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GBDeviceInfo.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InterfaCSS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyFaCSS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyFiziqSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyFiziqSDKBilling.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyFiziqSDKCommon.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SHEmailValidator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SpotHeroEmailValidator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1378,12 +1398,18 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				4E5229A65A004F4A87C02E4F /* RNMyFiziqSdk.m in Sources */,
-				55DEF924CA624AC7A6681509 /* RNMyFiziqWrapAvatar.m in Sources */,
-				ACCE2AD0697B4BCDB52E8E30 /* RNMyFiziqWrapCommon.m in Sources */,
-				2680E7185D42463E8B3F18AC /* RNMyFiziqWrapCore.m in Sources */,
-				01570F9D7E2047518DEFC190 /* RNMyFiziqWrapUser.m in Sources */,
-				5DA37D7DD49F4809A409261D /* RNMyFiziqWrapCognitoAuth.m in Sources */,
+				1471CEBF6EA84739830B6D2B /* RNMyFiziqSdk.m in Sources */,
+				9137C4A1896149DD807918FA /* RNMyFiziqWrapAvatar.m in Sources */,
+				9A1924FDB07F40FE84BF9FAE /* RNMyFiziqWrapCommon.m in Sources */,
+				1A6AE6BAF4224395B2EE4CAD /* RNMyFiziqWrapCore.m in Sources */,
+				64B322BD89794ABAAE1EC5F6 /* RNMyFiziqWrapUser.m in Sources */,
+				8D300929BC384F9E89250140 /* RNMyFiziqWrapCognitoAuth.m in Sources */,
+				D092A9881CCC4391949AD0F3 /* RNMyFiziqSdk.m in Sources */,
+				81A5370C5C554855BF3359D3 /* RNMyFiziqWrapAvatar.m in Sources */,
+				443BAA7EDAAC4FDF9C8B0057 /* RNMyFiziqWrapCommon.m in Sources */,
+				51A1420B0CA94BD185615DE9 /* RNMyFiziqWrapCore.m in Sources */,
+				3569569F81294695AF55AAD6 /* RNMyFiziqWrapUser.m in Sources */,
+				21D3E97AF24A4BAC9BE83F36 /* RNMyFiziqWrapCognitoAuth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
