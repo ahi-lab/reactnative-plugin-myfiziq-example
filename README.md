@@ -21,6 +21,7 @@ let result = await MyFiziq.mfzSdkSetup(
 ```sh
 react-native run-ios
 ```
+4. Update the project's `Info.plist` with an appropriate NSCameraUsageDescription string. For example, see: https://useyourloaf.com/blog/privacy-settings-in-ios-10/
 
 ## Author
 
