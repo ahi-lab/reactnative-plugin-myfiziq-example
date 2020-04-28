@@ -6,6 +6,11 @@ React Native example project using MyFiziq React Native plugin.
 
 This guide assumes the React Native is installed and configured.
 
+1. Install the MyFiziq plugin.
+```sh
+npm install https://github.com/MyFiziqApp/reactnative-plugin-myfiziq.git
+npm install
+```
 1. Link the plugin to the project (this downloads and links in external libraries):
 ```sh
 react-native link react-native-my-fiziq-sdk

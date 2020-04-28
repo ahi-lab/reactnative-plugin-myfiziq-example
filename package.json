@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "16.8.3",
     "react-native": "0.59.10",
-    "react-native-my-fiziq-sdk": "file:../reactnative-plugin-myfiziq"
+    "react-native-my-fiziq-sdk": "git+https://github.com/MyFiziqApp/reactnative-plugin-myfiziq.git"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
