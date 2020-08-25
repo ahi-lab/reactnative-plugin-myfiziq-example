@@ -1,18 +1,14 @@
 # Created by react-native-pod
 target 'MyFiziqExample' do
-  # MyFiziq requires iOS 12.1 minimal (for CoreML 2). This is minimal AppStore accept now anyway
-  platform :ios, '12.1'
+  # MyFiziq requires iOS 13.4 minimal (for CoreML 2). This is minimal AppStore accept now anyway
+  platform :ios, '13.4'
   # We uncomment because we like dynamic frameworks witn working with swift projects
   use_frameworks!
   # Add new pods below this line
   pod 'SpotHeroEmailValidator'
-
-  pod 'MyFiziqSDK', :git => 'https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-ios', :branch => '19.1.9_trunk'
-
-  pod 'MyFiziqSDKBilling', :git => 'https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-ios-billing', :branch => '19.1.9_trunk'
-
+  pod 'MyFiziqSDK', :git => 'https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-ios', :branch => '19.1.13_trunk'
+  pod 'MyFiziqSDKBilling', :git => 'https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-ios-billing', :branch => '19.1.10_trunk'
   pod 'MyFiziqSDKCommon', :git => 'https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-common', :branch => '19.1.9_trunk'
-
   pod 'MyFaCSS', :git => 'https://github.com/MyFiziqApp/InterfaCSS.git', :branch => '19.1.6_trunk'
 
   target 'MyFiziqExampleTests' do
@@ -20,15 +16,10 @@ target 'MyFiziqExample' do
     # Pods for testing
     # Add new pods below this line
     pod 'SpotHeroEmailValidator'
-
-    pod 'MyFiziqSDK', :git => 'https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-ios', :branch => '19.1.9_trunk'
-
-    pod 'MyFiziqSDKBilling', :git => 'https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-ios-billing', :branch => '19.1.9_trunk'
-
+    pod 'MyFiziqSDK', :git => 'https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-ios', :branch => '19.1.13_trunk'
+    pod 'MyFiziqSDKBilling', :git => 'https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-ios-billing', :branch => '19.1.10_trunk'
     pod 'MyFiziqSDKCommon', :git => 'https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/myfiziq-sdk-common', :branch => '19.1.9_trunk'
-
     pod 'MyFaCSS', :git => 'https://github.com/MyFiziqApp/InterfaCSS.git', :branch => '19.1.6_trunk'
-
   end
 end
 target 'MyFiziqExample-tvOS' do
